@@ -1,0 +1,25 @@
+# Ignore raw datasets and database files
+data/raw/*
+data/processed/*
+data/models/*
+
+# But keep folder placeholders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+!data/models/.gitkeep
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment files
+.env
+
+# OS files
+.DS_Store
+Thumbs.db
